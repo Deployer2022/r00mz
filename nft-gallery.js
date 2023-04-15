@@ -1,4 +1,4 @@
-const contractAddress = '0x338fbfb2dc0d6c5ea7b23b4417fdf4e2c7a6828a';
+const contractAddress = '0x338FBFB2Dc0D6c5ea7B23B4417fDf4E2c7a6828A';
 const etherscanApiKey = 'UCPX8M3KA5T1U3HDXTQ5XN6M6TR81TCNCS';
 
 
