@@ -1,6 +1,7 @@
 const contractAddress = '0x338fbfb2dc0d6c5ea7b23b4417fdf4e2c7a6828a';
 const etherscanApiKey = 'UCPX8M3KA5T1U3HDXTQ5XN6M6TR81TCNCS';
 
+
 async function fetchTotalSupply() {
   const response = await fetch(`https://api.etherscan.io/api?module=proxy&action=eth_call&to=${contractAddress}&data=0x18160ddd&tag=latest&apikey=${etherscanApiKey}`);
   const data = await response.json();
